@@ -1,0 +1,50 @@
+{
+  "@context": "https://w3id.org/did/v1",
+  "id": "did:github:fidenz-chim",
+  "publicKey": [
+    {
+      "type": "OpenPgpVerificationKey2019",
+      "id": "did:github:fidenz-chim#MX3GEgxyJeKs8bFZO2kM4lwd5gOEfcuSufVYTBD0pLo",
+      "controller": "did:github:fidenz-chim",
+      "publicKeyPem": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v4.10.4\r\nComment: https://openpgpjs.org\r\n\r\nxk8EXrbf9RMFK4EEAAoCAwQZAmCYuLRItYU5SsPD/fzGDULQ4hT0DXfkD6rx\r\nv7geEk+Xas9ghxmp105RLdG9o2A7m3nqnO96Ys4s9vG0McMgzRdhbm9uIDxh\r\nbm9uQGV4YW1wbGUuY29tPsJ4BBATCAAgBQJett/1BgsJBwgDAgQVCAoCBBYC\r\nAQACGQECGwMCHgEACgkQHlqYLj2iN3UFjwD+Miju+sS+9EW08Jnc+iToT6Lw\r\n4wyREBIBafCnfVH626QBAKqmTmbeyDp6yiW2C2PcbLMm54xgRdIbliYTI25T\r\ncxJjzlMEXrbf9RIFK4EEAAoCAwRBQuK/pNmxl1AMhBjHjEGqKqQHfPvWeBL3\r\nsQ1Fib2QCsBzhUUxHa+HGKdU50blpsOQDYVk3L8wf3Hxc1hAvsCuAwEIB8Jh\r\nBBgTCAAJBQJett/1AhsMAAoJEB5amC49ojd1LwQBAPZh9nex8N5aQnjDFUC2\r\nkuzs1dnM6AaQdBVyxB4Ijm8zAPsHtIMbvyh9f9drPhwipTjq3Nxu/DvCYZ4b\r\n5sy3t2TZeA==\r\n=7Dnu\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n"
+    },
+    {
+      "type": "OpenPgpVerificationKey2019",
+      "id": "did:github:fidenz-chim#P7jz1gziilJ7U0mWhCDR-qBZQxUdMfkhCOp4r842LbI",
+      "controller": "did:github:fidenz-chim",
+      "publicKeyPem": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v4.10.4\r\nComment: https://openpgpjs.org\r\n\r\nxk8EXrbf9RMFK4EEAAoCAwQSmuUd5pxfIRWLDqXCrPOphnbA9srbrEOMa1DU\r\ny7c7BhzWYwUuAp0XXkTp6K7WuvyNvDwQnq3DLyjkkEtWJ7wHzRdhbm9uIDxh\r\nbm9uQGV4YW1wbGUuY29tPsJ4BBATCAAgBQJett/1BgsJBwgDAgQVCAoCBBYC\r\nAQACGQECGwMCHgEACgkQg3D73f5qYbdHWwEAz7p1fggVRdmPBlaI9gXu20Cf\r\nQpGNIT1twtSxtlb+DbQBAPkFvRmsfddVQX/kaYGNvdwSi6Pr+DyoqiB+Yatt\r\nCB8FzlMEXrbf9RIFK4EEAAoCAwTyMX+kYJdzXPDsoVrhIIUzNrZlx/OwxCxO\r\nh7QcVEnjLh+I34nh2U5niy5xE+dUZxqaZtkl6ESE3Lc4DLhGLk+mAwEIB8Jh\r\nBBgTCAAJBQJett/1AhsMAAoJEINw+93+amG30YcA/2YmK60TQETgNKLSCyIq\r\nRxT/YH3AdrKwXFbEiuRTq+osAQCeFhUEGiBq3VP9owG+WWKhh5AB7WMmv1en\r\n1RoV+dZNGw==\r\n=Jji6\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n"
+    },
+    {
+      "type": "Ed25519VerificationKey2018",
+      "id": "did:github:fidenz-chim#o3l9Lj8rX1VyBUomKXDJzUjBgTxDjlwZznhB2NCHYEA",
+      "controller": "did:github:fidenz-chim",
+      "publicKeyBase58": "Nk8ZdxVkShojKsitGXk7BWNnRDjPHd43Z3sdgWfFxGN"
+    }
+  ],
+  "authentication": [],
+  "service": [],
+  "capabilityDelegation": [
+    "did:github:fidenz-chim#o3l9Lj8rX1VyBUomKXDJzUjBgTxDjlwZznhB2NCHYEA"
+  ],
+  "capabilityInvocation": [
+    "did:github:fidenz-chim#o3l9Lj8rX1VyBUomKXDJzUjBgTxDjlwZznhB2NCHYEA"
+  ],
+  "assertionMethod": [
+    "did:github:fidenz-chim#o3l9Lj8rX1VyBUomKXDJzUjBgTxDjlwZznhB2NCHYEA"
+  ],
+  "keyAgreement": [
+    {
+      "id": "did:github:fidenz-chim#zC91o87ka7mSxRj3vCcGjdido7NXZCqfLVxFMo7bciFLMH",
+      "type": "X25519KeyAgreementKey2019",
+      "controller": "did:github:fidenz-chim",
+      "publicKeyBase58": "9X5QkZkvPhfzczwkCnAfZU7p8FkFGxj14N4mGWpK96F5"
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2020-05-09T16:53:10Z",
+    "verificationMethod": "did:github:fidenz-chim#o3l9Lj8rX1VyBUomKXDJzUjBgTxDjlwZznhB2NCHYEA",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19.._AKWtj9C_IAlRvynSW_2ScIEJn7zNQNna0AhRQdMRaycmbMwGBm6-uCj8SxyUNdr4TRLMB346qcbcmvPo3AmBA"
+  }
+}
